@@ -1,21 +1,5 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es6",
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "declaration": true,
-    "experimentalDecorators": true,
-    "baseUrl": ".",
-    "paths": {
-      "*": [
-        "node_modules/*",
-        "lib/types/*"
-      ]
-    }
-  },
+  "compilerOptions": {},
   "include": [
     "lib/",
     "packages/",
