@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "build:clean": "tsc --build --clean",
-    "test": "nyc mocha -r ts-node/register 'lib/**/*.spec.ts' 'packages/**/*.spec.ts'"
+    "test": "nyc mocha -r ts-node/register '**/*.spec.ts'"
   },
   "repository": {
     "type": "git",
